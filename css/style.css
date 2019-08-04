@@ -44,6 +44,31 @@ div h1 {
   font-family: sans-serif;
 }
 
+.previewbaku {
+  background-image: url("https://raw.githubusercontent.com/lds59/css-exercise-four/master/images/baku.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewlondon {
+  background-image: url("https://raw.githubusercontent.com/lds59/css-exercise-four/master/images/london.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewmadrid {
+  background-image: url("https://raw.githubusercontent.com/lds59/css-exercise-four/master/images/madrid.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.previewrome {
+  background-image: url("https://raw.githubusercontent.com/lds59/css-exercise-four/master/images/rome.jp");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
 /* TABLET */
 @media screen and (min-width: 575px){
   * {
@@ -64,6 +89,7 @@ div h1 {
     height: 70%;
     width: 100%;
     margin-bottom: 10px;
+    bottom-padding: 75%;
   }
 
 
